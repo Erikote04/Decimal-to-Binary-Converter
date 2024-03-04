@@ -3,10 +3,10 @@ const convertBtn = document.getElementById('convert-btn');
 const result = document.getElementById('result');
 
 function checkUserInput() {
-    if (numberInput.value === '') {
+    if (!numberInput.value) {
 
     }
-    
+
     console.log(numberInput.value);  
 };
 
