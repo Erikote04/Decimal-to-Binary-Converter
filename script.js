@@ -8,4 +8,6 @@ function checkUserInput() {
 
 convertBtn.addEventListener('click', checkUserInput);
 
-numberInput.addEventListener('keydown', () => {});
+numberInput.addEventListener('keydown', (e) => {
+    console.log(e);
+});
