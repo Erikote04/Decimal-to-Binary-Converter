@@ -3,7 +3,7 @@ const convertBtn = document.getElementById('convert-btn');
 const result = document.getElementById('result');
 
 function decimalToBinary(input) {
-    return "1010"; // Number 10
+    return "01110110"; // Number 118
 };
 
 function checkUserInput() {
@@ -50,4 +50,14 @@ numberInput.addEventListener('keydown', (e) => {
     - Notice that binary numbers are formed from left to right, from the digit with the greatest place value on the left, to the least significant on the right. 
     For example, the number 3 in binary is 11, or 1 in the twos place and 1 in the ones place. 
     Then for the number 4, a digit to represent the fours place is included on the left and set to 1, the twos place is 0, and the ones place is 0.
+
+    - Bits are often grouped into an octet, which is an 8-bit set known as a byte. 
+    A byte can represent any number between 0 and 255. 
+    Here are the placement values for each bit in a byte: 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1
+
+    - Because bits are often grouped into bytes, it's common to see binary numbers represented in groups of eight, sometimes with leading zeros. 
+    For example, the number 52 can be represented as 110100, or 00110100 with leading zeros. 
+    Here's how that breaks down with the placement values:
+    128 | 64 | 32 | 16 | 8 | 4 | 2 | 1
+      0 |  0 |  1 |  1 | 0 | 1 | 0 | 0
 */
