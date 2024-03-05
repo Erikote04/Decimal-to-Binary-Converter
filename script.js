@@ -4,6 +4,10 @@ const result = document.getElementById('result');
 
 const countdown = (number) => {
     console.log(number);
+
+    if (number === 0) {
+        return;
+    }
 }
 
 const decimalToBinary = (input) => {
@@ -81,4 +85,8 @@ numberInput.addEventListener('keydown', (e) => {
     Or an array where you can only .push() and .pop() elements.
     The call stack is a collection of function calls stored in a stack structure. 
     When you call a function, it is added to the top or of the stack, and when it returns, it is removed from the top / end of the stack.
+
+    - A recursive function is a function that calls itself over and over. 
+    But you have to be careful because you can easily create an infinite loop. 
+    That's where the base case comes in. The base case is when the function stops calling itself, and it is a good idea to write it first.
 */
