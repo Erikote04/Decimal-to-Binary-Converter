@@ -2,7 +2,11 @@ const numberInput = document.getElementById('number-input');
 const convertBtn = document.getElementById('convert-btn');
 const result = document.getElementById('result');
 
-function decimalToBinary(input) {
+const countdown = (number) => {
+    
+}
+
+const decimalToBinary = (input) => {
     let binary = '';
 
     if (input === 0) {
@@ -17,7 +21,7 @@ function decimalToBinary(input) {
     result.innerText = binary;
 };
 
-function checkUserInput() {
+const checkUserInput = () => {
     if (!numberInput.value || isNaN(parseInt(numberInput.value))) {
         alert('Please provide a decimal number');
         return;
