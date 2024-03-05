@@ -1,6 +1,17 @@
-const a = () => "freeCodeCamp " + b();
-const b = () => "is " + c();
-const c = () => "awesome!";
+const callStack = [];
+
+const a = () => {
+    "freeCodeCamp " + b()
+};
+
+const b = () => {
+    "is " + c()
+};
+
+const c = () => {
+    "awesome!"
+};
+
 console.log(a());
 
 const numberInput = document.getElementById('number-input');
@@ -76,4 +87,10 @@ numberInput.addEventListener('keydown', (e) => {
     Here's how that breaks down with the placement values:
     128 | 64 | 32 | 16 | 8 | 4 | 2 | 1
       0 |  0 |  1 |  1 | 0 | 1 | 0 | 0
+
+    - In computer science, a stack is a data structure where items are stored in a LIFO (last-in-first-out) manner. 
+    If you imagine a stack of books, the last book you add to the stack is the first book you can take off the stack. 
+    Or an array where you can only .push() and .pop() elements.
+    The call stack is a collection of function calls stored in a stack structure. 
+    When you call a function, it is added to the top or of the stack, and when it returns, it is removed from the top / end of the stack.
 */
