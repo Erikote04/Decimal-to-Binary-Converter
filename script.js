@@ -8,7 +8,8 @@ function decimalToBinary(input) {
     const remainders = [];
 
     if (input === 0) {
-        
+        result.innerText = '0';
+        return;
     }
 
     while (input > 0) {
