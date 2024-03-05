@@ -4,6 +4,7 @@ const result = document.getElementById('result');
 
 function decimalToBinary(input) {
     let binary = '';
+    result.innerText = binary;
 };
 
 function checkUserInput() {
