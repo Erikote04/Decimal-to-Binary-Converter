@@ -17,7 +17,7 @@ const checkUserInput = () => {
         return;
     }
 
-    decimalToBinary(parseInt(numberInput.value));
+    result.textContent = decimalToBinary(parseInt(numberInput.value));
     numberInput.value = '';
 };
 
