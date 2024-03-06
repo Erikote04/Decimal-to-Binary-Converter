@@ -19,7 +19,9 @@ const showAnimation = () => {
         console.log('Code');
     }, 1000);
 
-    console.log('Camp');
+    setTimeout(() => {
+        console.log('Camp');
+    }, 1500);
 };
 
 const checkUserInput = () => {
