@@ -2,7 +2,12 @@
 
 Convert decimal numbers to binary using this simple Decimal to Binary Converter. The application demonstrates the binary conversion process with an animated call stack.
 
-<img width="490" alt="user-interface" src="https://github.com/Erikote04/Decimal-to-Binary-Converter/assets/126704751/cd87ca41-95e7-4cf9-8cf0-49b6b09bb01f">
+<p align="center">
+  <img width="490" alt="user-interface" src="https://github.com/Erikote04/Decimal-to-Binary-Converter/assets/126704751/cd87ca41-95e7-4cf9-8cf0-49b6b09bb01f">
+</p>
+
+
+![](img/CallStackAnimation.gif)
 
 ## Introduction
 
